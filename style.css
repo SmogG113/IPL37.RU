@@ -1,0 +1,387 @@
+/* Преднастройки */
+body{
+    background-color: #f1f1f1;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+   }
+
+/* Добавление шрифтов */
+@font-face {
+    font-family: "SourceSerifPro-Bold";
+    src: url(fonts/SourceSerifPro-Bold.woff2);
+}
+
+@font-face {
+    font-family: "SourceSerifPro-SemiBold";
+    src: url(fonts/SourceSerifPro-SemiBold.woff2);
+}
+
+
+/* Шапка сайта */
+.top1{
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    }
+
+.top-img{
+margin: 0;
+width: 62px;
+height: 80px;
+}
+
+.top-name{
+    margin-left: 15px;
+}
+
+.top-name>p1{
+font-family: "SourceSerifPro-Bold";
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #000;
+text-transform: uppercase;
+}
+
+.top-name>p2{
+font-family: "SourceSerifPro-SemiBold";
+font-weight: 600;
+font-size: 24px;
+letter-spacing: 0.237em;
+color: #000;
+}
+
+.top2{
+    margin-top: 9px;
+    display: flex;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+    
+}
+
+.menu{
+    display: flex;
+    border-radius: 0 15px 15px 0;
+    width: 1256px;
+    height: 61px;
+    background: #0364a3;
+    align-items: center;
+    }
+
+.menu>a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #f1f1f1;
+    margin-left: 92px;
+    text-decoration: none;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    width: 306px;
+    }
+
+.tel-1{
+    margin-left: 30px;
+    margin-right: 19px;
+}
+
+
+.tel-2>a{
+    text-decoration: none;
+    font-family: v'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    }
+
+.block{
+    border-radius: 15px 0 0 15px;
+    width: 358px;
+    height: 61px;
+    background: #0364a3;
+    
+}
+
+/* Основа */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.text>p{
+    width: 1382px;
+    height: 120px;
+
+    font-family: "SourceSerifPro-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+}
+
+.line{
+    margin-top: 41px;
+
+    border-radius: 15px;
+    width: 1526px;
+    height: 17px;
+    background: #0364a3;
+}
+
+/* .services{
+    display: flex;
+    flex-direction: column;
+    } */
+
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.services>h1{
+    margin-top: 73px;
+
+    font-family: "SourceSerifPro-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.row1, .row2{
+    flex-direction: row;
+}
+
+.row1{
+margin-top: 14px;
+}
+
+.row2{
+    margin-top: 26px;
+}
+
+.b2, .b4{
+    margin-left: 96px;
+}
+
+.b1, .b2, .b3, .b4{
+   
+    align-content: center;
+    justify-content: center;
+    
+
+    width: 554px;
+    height: 428px;
+    position: relative;
+    
+}
+
+.b1>a, .b2>a, .b3>a, .b4>a{
+    font-family: "SourceSerifPro-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.b1{
+    display: flex;
+background-image: url(img/buttons/b1.png);
+}
+
+.b1>a{
+width: max-content;
+height: max-content;
+position: absolute;
+top: 307px;
+}
+
+.b2{
+    display: flex;
+background-image: url(img/buttons/b2.png);
+}
+
+.b2>a{
+width: max-content;
+height: max-content;
+position: absolute;
+top: 332px;
+}
+
+.b3{
+    display: flex;
+background-image: url(img/buttons/b3.png);
+}
+
+.b3>a{
+width: max-content;
+height: max-content;
+position: absolute;
+top: 297px;
+}
+
+.b4{
+display: flex;
+background-image: url(img/buttons/b4.png);
+
+}
+
+.b4>a{
+width: max-content;
+height: max-content;
+position: absolute;
+top: 317px;
+}
+
+.advantages{
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+    
+    margin-top: 49px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.advantages > h1{
+font-family: "SourceSerifPro-SemiBold";
+font-weight: 600;
+font-size: 32px;
+color: #000;
+margin-top: 28px;
+}
+
+.advantages>img{
+    position: absolute;
+    left: 701px;
+    top: 80px;
+    align-items: center;
+    right: 0;
+    bottom: 0; 
+    
+}
+
+
+/* .tbl {
+    display: flex;
+  align-content: center;
+  justify-content: center;
+    z-index: 10;
+    margin-top: 60px;
+    height: 610px;
+    width: 1635px;
+
+    font-family: "SourceSerifPro-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: justify;
+    color: #000;
+}  */
+
+.tbl{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    
+}
+
+table{
+    z-index: 10;
+    height: 610px;
+    
+    font-family: "SourceSerifPro-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: justify;
+    color: #000;
+}
+
+
+.basement{
+    display: flex;
+    margin-top: 58px;
+    min-width: 1920px;
+    height: 114px;
+    background: #0364a3;
+    justify-content: center;
+    align-items: center;
+}
+
+.basement-1{
+    display: flex;
+    width: 534px;
+    height: 78px;
+    align-items: center;
+}
+
+.basement-1-text{
+    display: flex;
+    margin-left: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 462px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align-last: justify;
+    color: #f1f1f1;
+}
+
+.basement-2{
+    
+    margin-left: 229px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 462px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align-last: right;
+    color: #f1f1f1;
+}
+
+.ps{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+    font-size: 15px;
+}
+
+.ps>img{
+    margin: 0 10px;
+}
+
+
